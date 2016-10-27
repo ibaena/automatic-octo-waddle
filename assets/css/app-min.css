@@ -19,10 +19,17 @@ textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;
 td,th{padding:0}#masthead{background-image:url("http://feverall.dev/wp-content/uploads/2016/10/bg-header.jpg");height:100px;width:100%}
 .list-inline{position:relative;display:inline-block;top:8px;left:-3%}.navbar-brand{position:relative;bottom:30px}
 .navbar-default{background-color:#f83e32;border-color:none}.navbar-default .navbar-nav li a{text-decoration:none;color:white}
-html,body{height:100%}#wrap{min-height:100%;height:auto;margin:0 auto -77px;padding:0 0 77px}
-.site-footer{height:77px}#colophon{background:url("http://feverall.dev/wp-content/uploads/2016/10/bg-footer.jpg") repeat-x left top;margin-top:11px;clear:both;height:77px;position:absolute;bottom:0;width:100%;margin-top:30px}
-#CompanyLogo{position:absolute;left:80%;bottom:-10px}.inner{height:57px;padding:10px 30px;position:relative}
+html,body{height:100%}body{margin:0;padding:0}#wrapper{min-height:100%;height:auto !important;height:100%;margin-bottom:-77px}
+#wrapper #primary{padding:0 0 77px 0}#colohpon{height:77px}html,body,#wrapper,#primary,footer{width:100%}
+footer{background:url("http://feverall.dev/wp-content/uploads/2016/10/bg-footer.jpg") repeat-x left top;height:77px;margin-top:30px}
+#CompanyLogo{position:absolute;left:85%;bottom:-55px}.inner{height:57px;padding:10px 30px;position:relative}
 #Legal{position:absolute;left:5%;top:35px;margin:0;color:#fff;font-size:12px}#Legal a{text-decoration:none;color:white}
-.full-bg-slider{background:url("http://feverall.dev/wp-content/uploads/2016/10/bg-homepage.jpg") repeat-x left 313px;background-size:100% 100%;width:100%;height:400px;position:absolute;left:0}
-.item img{display:block;margin:0 auto}.three-col-section{text-align:center}.third-section-heading{font-size:22px}
-#third-section{margin-top:20px}#coupon-section{overflow-x:hidden;margin-top:20px;padding-bottom:40px}
+@media only screen and (max-width:480px){#CompanyLogo{display:none}#Legal{top:0}}
+html{height:100%}.item img{display:block;margin:0 auto}.three-col-section{text-align:center}
+.third-section-heading{font-size:22px}#third-section{margin-top:20px}#coupon-section{overflow-x:hidden;margin-top:20px;padding-bottom:40px}
+.add-home-bg{background:url("http://feverall.dev/wp-content/uploads/2016/10/bg-homepage.jpg") repeat-x;background-size:100% 100%;position:relative;bottom:55px}
+.add-home-bg #bs-3col-layout{position:relative;top:55px}.add-home-bg #third-section{position:relative;top:55px}
+.add-home-bg #coupon-section{position:relative;top:55px}.testmargin{margin-bottom:20px}
+@media only screen and (max-width:480px){.add-home-bg{bottom:17px !important}.item{z-index:999}
+#sub-main-menu{display:none}#brand-logo-nav{display:block;margin:0 auto}.navbar-brand{width:100%}
+}.center-img{display:block;margin:0 auto}

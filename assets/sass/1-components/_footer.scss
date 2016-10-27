@@ -1,29 +1,50 @@
 /* Sticky footer styles
 -------------------------------------------------- */
-
-html,
-body {
-  height: 100%;
-  /* The html and body elements cannot have any padding or margin. */
+/**
+ * the sticky footer mixin
+ **/
+@mixin sticky-footer($footer-height, $wrapper-selector: unquote("#wrapper"), $container-selector: unquote("#primary"), $footer-selector: unquote("#colohpon")) {
+  html, body {
+    height: 100%;
+  }
+  body {
+  	margin: 0px;
+  	padding: 0px;
+  }
+  #{$wrapper-selector} {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -$footer-height;
+    #{$container-selector} {
+      padding: 0 0 $footer-height 0;
+    }
+  }
+  #{$footer-selector} {
+    height: $footer-height;
+  }
 }
 
-/* Wrapper for page content to push down footer */
-#wrap {
-  min-height: 100%;
-  height: auto;
-  /* Negative indent footer by its height */
-  margin: 0 auto -77px;
-  /* Pad bottom by footer height */
-  padding: 0 0 77px;
+/**
+ * the sticky footer implementation
+ **/
+@include sticky-footer(77px);
+
+
+html,body,#wrapper,#primary,footer {
+  width:100%;
 }
 
-/* Set the fixed height of the footer here */
-.site-footer {
-  height: 77px;
+
+footer {
+  background: url('http://feverall.dev/wp-content/uploads/2016/10/bg-footer.jpg') repeat-x left top;
+    height: 77px;
+    margin-top: 30px;
 
 }
 
-#colophon {
+
+/*#colophon {
   background: url('http://feverall.dev/wp-content/uploads/2016/10/bg-footer.jpg') repeat-x left top;
   margin-top: 11px;
   clear: both;
@@ -32,11 +53,11 @@ body {
   bottom: 0;
   width: 100%;
   margin-top: 30px;
-}
+}*/
 #CompanyLogo {
   position: absolute;
-  left: 80%;
-  bottom: -10px;
+  left: 85%;
+  bottom: -55px;
 }
 .inner {
   height: 57px;
@@ -54,5 +75,15 @@ body {
   a {
     text-decoration: none;
     color: white;
+  }
+}
+
+/*Mobile Styles*/
+@media only screen and (max-width: 480px) {
+  #CompanyLogo {
+    display: none;
+  }
+  #Legal {
+    top: 0;
   }
 }

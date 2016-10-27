@@ -25,7 +25,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'feverall' ); ?></a>
 
 	<header id="masthead" class="site-header container" role="banner">
-		<div class="row">
+		<div class="row" id="sub-main-menu">
 			<div class="col-sm-5 col-sm-offset-7">
 				<!-- ul inline list -->
 				<ul class="list-inline">
@@ -40,8 +40,8 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-2 col-sm-offset-2">
-				<a class="navbar-brand" href="#"><img src="http://feverall.dev/wp-content/uploads/2016/10/logo.png" alt="Feverall" /></a>
+			<div class="col-lg-2 col-lg-offset-2 col-sm-12">
+				<a class="navbar-brand" href="#"><img src="http://feverall.dev/wp-content/uploads/2016/10/logo.png" alt="Feverall" id="brand-logo-nav"/></a>
 			</div>
 	<nav id="site-navigation" class="navbar navbar-default col-xs-12 col-sm-5" role="navigation">
 		<div class="container">
@@ -84,4 +84,4 @@
 
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content container">
+	<div id="content" class="site-content ">
