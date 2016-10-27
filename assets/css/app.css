@@ -165,10 +165,20 @@ td, th {
 
 .navbar-default {
   background-color: #f83e32;
-  border-color: none; }
+  border-color: none;
+  width: 50%; }
   .navbar-default .navbar-nav li a {
     text-decoration: none;
-    color: white; }
+    color: white;
+    font-size: 12px; }
+  .navbar-default .navbar-nav .dropdown li a {
+    text-decoration: none;
+    color: black; }
+
+/*Mobile nav Styles*/
+@media only screen and (max-width: 500px) {
+  .navbar-default {
+    width: 100%; } }
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -261,6 +271,13 @@ html {
   overflow-x: hidden;
   margin-top: 20px;
   padding-bottom: 40px; }
+  #coupon-section #coupon-btn {
+    position: relative;
+    left: 63%;
+    bottom: 49px; }
+  #coupon-section #video-btn {
+    position: relative;
+    left: 33%; }
 
 /*seconday home page content styles*/
 .add-home-bg {
@@ -274,6 +291,13 @@ html {
   .add-home-bg #third-section {
     position: relative;
     top: 15px; }
+    .add-home-bg #third-section h2 {
+      color: #3d86cb; }
+    .add-home-bg #third-section p {
+      color: #3d86cb; }
+      .add-home-bg #third-section p span {
+        font-weight: 500;
+        color: gray; }
   .add-home-bg #coupon-section {
     position: relative;
     top: 40px; }
@@ -359,9 +383,19 @@ html {
     left: 66%; }
 
 /*Mobile Styles*/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 425px) {
   .add-home-bg {
-    bottom: 17px !important; }
+    bottom: 23px !important; } }
+
+@media only screen and (max-width: 375px) {
+  .add-home-bg {
+    bottom: 20px !important; } }
+
+@media only screen and (max-width: 320px) {
+  .add-home-bg {
+    bottom: 17px !important; } }
+
+@media only screen and (max-width: 480px) {
   .item {
     z-index: 999; }
   #sub-main-menu {
@@ -374,7 +408,11 @@ html {
   .center-text-mobile {
     text-align: center; }
   .box {
-    height: 220px; } }
+    height: 220px; }
+  #video-btn {
+    margin-bottom: 30px; }
+  .push-down {
+    margin-top: 10px; } }
 
 @media only screen and (max-width: 320px) {
   .box {
@@ -387,6 +425,15 @@ html {
 .center-img {
   display: block;
   margin: 0 auto; }
+
+.center-text {
+  text-align: center; }
+
+.push-down {
+  margin-top: 40px; }
+
+.item {
+  z-index: 999; }
 
 /************
  * ! Layouts

@@ -26,15 +26,15 @@
 
 	<header id="masthead" class="site-header container" role="banner">
 		<div class="row" id="sub-main-menu">
-			<div class="col-sm-5 col-sm-offset-7">
+			<div class="col-sm-5 col-sm-offset-6">
 				<!-- ul inline list -->
 				<ul class="list-inline">
 					<li><a href="#">HOME</a></li>
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">HOME</a></li>
+					<li><a href="#">FAQS</a></li>
+					<li><a href="#">RESOURCES</a></li>
+					<li><a href="#">WHOLESALE INFO &nbsp; |</a></li>
+					<li><a href="#"> ENGLISH</a></li>
+					<li><a href="#">SPANISH</a></li>
 				</ul>
 				<!-- end ul inline list -->
 			</div>
@@ -43,7 +43,7 @@
 			<div class="col-lg-2 col-lg-offset-2 col-sm-12">
 				<a class="navbar-brand" href="#"><img src="http://feverall.dev/wp-content/uploads/2016/10/logo.png" alt="Feverall" id="brand-logo-nav"/></a>
 			</div>
-	<nav id="site-navigation" class="navbar navbar-default col-xs-12 col-sm-5" role="navigation">
+	<nav id="site-navigation" class="navbar navbar-default col-xs-12 col-sm-8" role="navigation">
 		<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
@@ -58,22 +58,20 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-					<li class=""><a href="#">Link <span class="sr-only">(current)</span></a></li>
-						<li><a href="#">Link</a></li>
-						<li><a href="#">Link</a></li>
+					<li class=""><a href="#">PRODUCTS <span class="sr-only">(current)</span></a></li>
+						<li><a href="#">DOSAGE AND LABELING </a></li>
+						<li><a href="#">WHY FEVERALL</a></li>
+						<li><a href="#">PROMOTIONS</a></li>
+						<li><a href="#">WHERE TO BUY</a></li>
 					</ul>
 					<ul class="nav navbar-nav">
 
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">HEALTHCARE PROFESIONALS <span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Action</a></li>
-								<li><a href="#">Another action</a></li>
-								<li><a href="#">Something else here</a></li>
-								<li role="separator" class="divider"></li>
-								<li><a href="#">Separated link</a></li>
-								<li role="separator" class="divider"></li>
-								<li><a href="#">One more separated link</a></li>
+								<li><a href="#">PEDIATRIC CARE</a></li>
+								<li><a href="#">ADULT CARE</a></li>
+								<li><a href="#">FAQS FOR HEALTHCARE PROFESIONALS ONLY</a></li>
 							</ul>
 						</li>
 					</ul>

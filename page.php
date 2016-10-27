@@ -52,7 +52,7 @@ get_header(); ?>
         </div>
         <div class="add-home-bg">
             <div class="secondary-home-content container-fluid">
-                <div class="row">
+                <div class="row push-down">
                     <div class="col-lg-8 col-lg-offset-2 col-sm-12">
                         <h3 class="center-text-mobile">Available FeverAll® Products</h3>
                     </div>
@@ -128,16 +128,29 @@ get_header(); ?>
                     <div class="col-lg-6 col-lg-offset-2 col-sm-12">
                         <h2 class="third-section-heading">FeverAll® is a “must-have” for households with babies and children.</h2>
                         <p>
-                            FeverAll® is a suppository form of acetaminophen, the common fever remedy known and trusted by pediatricians. Available in 3 strengths for infants or children of different ages, FeverAll® suppositories provide an effective dosing alternative for children who won’t or can’t take medication orally due to nausea, vomiting or irritability. FeverAll® is an official Mommy MD Guides recommended product.
+                            FeverAll® is a suppository form of acetaminophen, the common fever remedy known and trusted by pediatricians. Available in 3 strengths for infants or children of different ages, FeverAll® suppositories provide an effective dosing alternative for children who won’t or can’t take medication orally due to nausea, vomiting or irritability. <span>FeverAll® is an official Mommy MD Guides recommended product.</span>
                         </p>
                     </div>
                     <div class="col-lg-2 col-sm-12" id="homepage-description">
-                        <img src="http://placehold.it/147x128" class="img-responsive center-img" >
+                        <img src="http://feverall.dev/wp-content/uploads/2016/10/why-feverall-mommy-md.png" class="img-responsive center-img" >
                     </div>
                 </div>
                 <div class="row" id="coupon-section">
-                    <div class="col-lg-8 col-lg-offset-2 col-sm-12">
-                        <img src="http://placehold.it/1280px127px" class="img-responsive center-img">
+                    <div class="col-lg-8 col-lg-offset-2 col-sm-12 well">
+                        <div class="col-lg-4 col-sm-4">
+                            <img src="http://feverall.dev/wp-content/uploads/2016/10/Coupon-_A.jpg" class="img-responsive center-img" >
+                            <button class="btn btn-default" id="coupon-btn">Get Coupon</button>
+                        </div>
+                        <div class="col-lg-3 col-sm-3">
+                            <h3 class="center-text">FeverAll® Video</h3>
+                            <p class="center-text">
+                                Click here to watch our video as featured on YouTube.
+                            </p>
+                            <button class="btn btn-default" id="video-btn">Watch Now</button>
+                        </div>
+                        <div class="col-lg-5 col-sm-5">
+                            <img src="http://feverall.dev/wp-content/uploads/2016/10/FeverAll-video-1-1.png" width="300px" class="img-responsive center-img " id="video-image" >
+                        </div>
                     </div>
                 </div>
             </div>

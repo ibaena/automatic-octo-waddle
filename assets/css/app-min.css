@@ -18,8 +18,9 @@ fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{
 textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}
 td,th{padding:0}#masthead{background-image:url("http://feverall.dev/wp-content/uploads/2016/10/bg-header.jpg");height:100px;width:100%}
 .list-inline{position:relative;display:inline-block;top:8px;left:-3%}.navbar-brand{position:relative;bottom:30px}
-.navbar-default{background-color:#f83e32;border-color:none}.navbar-default .navbar-nav li a{text-decoration:none;color:white}
-html,body{height:100%}body{margin:0;padding:0}#wrapper{min-height:100%;height:auto !important;height:100%;margin-bottom:-77px}
+.navbar-default{background-color:#f83e32;border-color:none;width:50%}.navbar-default .navbar-nav li a{text-decoration:none;color:white;font-size:12px}
+.navbar-default .navbar-nav .dropdown li a{text-decoration:none;color:black}@media only screen and (max-width:500px){.navbar-default{width:100%}
+}html,body{height:100%}body{margin:0;padding:0}#wrapper{min-height:100%;height:auto !important;height:100%;margin-bottom:-77px}
 #wrapper #primary{padding:0 0 77px 0}#colohpon{height:77px}html,body,#wrapper,#primary,footer{width:100%}
 footer{background:url("http://feverall.dev/wp-content/uploads/2016/10/bg-footer.jpg") repeat-x left top;height:77px;margin-top:30px}
 #CompanyLogo{position:absolute;left:85%;bottom:-55px}.inner{height:57px;padding:10px 30px;position:relative}
@@ -27,10 +28,12 @@ footer{background:url("http://feverall.dev/wp-content/uploads/2016/10/bg-footer.
 @media only screen and (max-width:480px){#CompanyLogo{display:none}#Legal{top:0}}
 html{height:100%}.item img{display:block;margin:0 auto}.third-section-heading{font-size:22px}
 #third-section{margin-top:20px}#coupon-section{overflow-x:hidden;margin-top:20px;padding-bottom:40px}
+#coupon-section #coupon-btn{position:relative;left:63%;bottom:49px}#coupon-section #video-btn{position:relative;left:33%}
 .add-home-bg{background:url("http://feverall.dev/wp-content/uploads/2016/10/bg-homepage.jpg") repeat-x;background-size:100% 100%;position:relative;bottom:55px}
 .add-home-bg #bs-3col-layout{position:relative;top:20px}.add-home-bg #third-section{position:relative;top:15px}
-.add-home-bg #coupon-section{position:relative;top:40px}.box{height:180px;float:left}
-.box .box-heading{font-size:21px;float:left}.box .box-sub-heading{font-size:19px;float:left}
+.add-home-bg #third-section h2{color:#3d86cb}.add-home-bg #third-section p{color:#3d86cb}
+.add-home-bg #third-section p span{font-weight:500;color:gray}.add-home-bg #coupon-section{position:relative;top:40px}
+.box{height:180px;float:left}.box .box-heading{font-size:21px;float:left}.box .box-sub-heading{font-size:19px;float:left}
 #infant-box{float:left}#infant-box .box-heading{color:#3d86cb}#infant-box .box-sub-heading{color:#3d86cb}
 #infant-box .styled-link{position:absolute;bottom:0;width:95%}#infant-box .more-link{background:linear-gradient(#629fce 11%,#629fce 11%,#599ad0 12%,#3d86cb 65%,#3d86cb 100%,#4890ca 100%,#4890ca 100%,#4890ca 100%,#4890ca 100%,#4b90c7 100%);border-bottom-right-radius:4px;border-bottom-left-radius:4px}
 #infant-box .more-link a{text-decoration:none;color:white;margin-left:5px}#infant-box .children-image{position:absolute;bottom:10px;left:66%}
@@ -40,7 +43,10 @@ html{height:100%}.item img{display:block;margin:0 auto}.third-section-heading{fo
 #jr-box{float:left}#jr-box .box-heading{color:#16b1af}#jr-box .box-sub-heading{color:#16b1af}
 #jr-box .styled-link{position:absolute;bottom:0;width:95%}#jr-box .more-link{background:linear-gradient(#50c4c3 0,#45c0be 4%,#42c0bf 7%,#3cbcbb 11%,#19b2b0 26%,#09aca9 37%,#00a9a6 52%,#00a8a8 100%);border-bottom-right-radius:4px;border-bottom-left-radius:4px}
 #jr-box .more-link a{text-decoration:none;color:white;margin-left:5px}#jr-box .children-image{position:absolute;bottom:10px;left:66%}
-@media only screen and (max-width:480px){.add-home-bg{bottom:17px !important}.item{z-index:999}
+@media only screen and (max-width:425px){.add-home-bg{bottom:23px !important}}@media only screen and (max-width:375px){.add-home-bg{bottom:20px !important}
+}@media only screen and (max-width:320px){.add-home-bg{bottom:17px !important}}@media only screen and (max-width:480px){.item{z-index:999}
 #sub-main-menu{display:none}#brand-logo-nav{display:block;margin:0 auto}.navbar-brand{width:100%}
-.center-text-mobile{text-align:center}.box{height:220px}}@media only screen and (max-width:320px){.box{height:250px}
-}.testmargin{margin-bottom:20px}.center-img{display:block;margin:0 auto}
+.center-text-mobile{text-align:center}.box{height:220px}#video-btn{margin-bottom:30px}
+.push-down{margin-top:10px}}@media only screen and (max-width:320px){.box{height:250px}
+}.testmargin{margin-bottom:20px}.center-img{display:block;margin:0 auto}.center-text{text-align:center}
+.push-down{margin-top:40px}.item{z-index:999}
