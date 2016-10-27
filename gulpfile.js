@@ -25,10 +25,10 @@ var browserSync = require('browser-sync');
 
 /* Variables */
 var reload = browserSync.reload;
-var url = 'localhost:8888/sip'; // Change to fit your dev environment
+var url = 'feverall.dev'; // Change to fit your dev environment
 var source = './assets/';
 var build = './build/';
-var project = 'sip'; // Names the .zip file on build task
+var project = 'feverall'; // Names the .zip file on build task
 
 /* Asynchronous browser syncing of assets across multiple devices */
 gulp.task('browser-sync', function() {

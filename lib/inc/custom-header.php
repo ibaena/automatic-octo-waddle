@@ -12,15 +12,15 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package sip
+ * @package Feverall
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses sip_header_style()
+ * @uses Feverall_header_style()
  */
-function sip_custom_header_setup() {
+function Feverall_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'sip_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
@@ -36,9 +36,9 @@ if ( ! function_exists( 'sip_header_style' ) ) :
 /**
  * Styles the header image and text displayed on the blog.
  *
- * @see sip_custom_header_setup().
+ * @see Feverall_custom_header_setup().
  */
-function sip_header_style() {
+function Feverall_header_style() {
 	$header_text_color = get_header_textcolor();
 
 	/*

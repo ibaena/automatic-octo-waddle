@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package sip
+ * @package Feverall
  */
 
 ?>
@@ -14,10 +14,18 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'sip' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'sip' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'sip' ), 'sip', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+		<div class="site-info container inner">
+			<div id="CompanyLogo">
+				<img src="http://feverall.dev/wp-content/uploads/2016/10/corporate-logo.png" alt="Taro" />
+			</div>
+      <p id="Legal">&copy;2016 Taro Pharmaceuticals U.S.A., Inc.  All Rights Reserved. |
+				<a href="http://www.tarousa.com/USA/ContactUs/Page.aspx" target="_blank">Contact Us</a> |
+				 <a href="http://www.tarousa.com/GO/PrivacyStatement/Page.html" target="_blank">Privacy Policy</a> |
+				 <a href="http://www.tarousa.com/GO/TermsofUse/Page.html" target="_blank">Legal/Copyright Disclaimer</a> |
+				 <a href="http://www.tarousa.com/CorporateInfo/Welcome/Page.html" target="_blank">Corporate Information</a> |
+				 <a href="/Home/Sitemap">Site Map</a>
+			 </p>
+
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

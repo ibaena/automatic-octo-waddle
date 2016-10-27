@@ -1,4 +1,4 @@
-# Sip
+# Feverall
 
 ### A WordPress Theme Using _s, Bourbon + Neat and Gulp
 
@@ -62,7 +62,7 @@ _Be sure to go into gulpfile.js and setup the project configuration variables._
  	* This is important for using Browser-Sync with your project. Make sure in gulpfile.js that you set the `project` variable to the appropriate name for your project URL. Default is "yourlocal.dev"
 
 * #### Gulp Tasks
-There are a couple of tasks built into Sip to help get you going.
+There are a couple of tasks built into Feverall to help get you going.
   * `gulp` This command simply starts up Gulp and watches your scss, js and php filder for changes, writes them out and refreshes the browser for you.
   * `gulp build` This command removes unneccessary files and packs up the required files into a nice and neat, installable, zip package.
 
@@ -85,7 +85,7 @@ Why use these in this project? It's a philosophical thing. I've used Foundation 
 
 ### Use as a Parent Theme?
 ---------------
-I don't see why not. I'd say 'Sip' would make for a good Parent Theme for your project and certainly more ideal if you're going to make significant edits (and why wouldn't you? By default it looks like poo!).
+I don't see why not. I'd say 'feverall' would make for a good Parent Theme for your project and certainly more ideal if you're going to make significant edits (and why wouldn't you? By default it looks like poo!).
 
 License
 ---------------

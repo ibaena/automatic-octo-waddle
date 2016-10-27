@@ -4,7 +4,7 @@
  *
  * @link https://jetpack.me/
  *
- * @package sip
+ * @package Feverall
  */
 
 /**
@@ -13,7 +13,7 @@
  * See: https://jetpack.me/support/infinite-scroll/
  * See: https://jetpack.me/support/responsive-videos/
  */
-function sip_jetpack_setup() {
+function Feverall_jetpack_setup() {
 	// Add theme support for Infinite Scroll.
 	add_theme_support( 'infinite-scroll', array(
 		'container' => 'main',
@@ -29,7 +29,7 @@ add_action( 'after_setup_theme', 'sip_jetpack_setup' );
 /**
  * Custom render function for Infinite Scroll.
  */
-function sip_infinite_scroll_render() {
+function Feverall_infinite_scroll_render() {
 	while ( have_posts() ) {
 		the_post();
 		if ( is_search() ) :

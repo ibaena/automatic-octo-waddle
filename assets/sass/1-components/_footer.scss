@@ -1,0 +1,58 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -77px;
+  /* Pad bottom by footer height */
+  padding: 0 0 77px;
+}
+
+/* Set the fixed height of the footer here */
+.site-footer {
+  height: 77px;
+
+}
+
+#colophon {
+  background: url('http://feverall.dev/wp-content/uploads/2016/10/bg-footer.jpg') repeat-x left top;
+  margin-top: 11px;
+  clear: both;
+  height: 77px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+}
+#CompanyLogo {
+  position: absolute;
+  left: 80%;
+  bottom: -10px;
+}
+.inner {
+  height: 57px;
+  padding: 10px 30px;
+  position: relative;
+}
+
+#Legal {
+  position: absolute;
+  left: 5%;
+  top: 35px;
+  margin: 0;
+  color: #fff;
+  font-size: 12px;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
