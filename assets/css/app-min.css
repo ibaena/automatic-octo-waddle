@@ -25,11 +25,22 @@ footer{background:url("http://feverall.dev/wp-content/uploads/2016/10/bg-footer.
 #CompanyLogo{position:absolute;left:85%;bottom:-55px}.inner{height:57px;padding:10px 30px;position:relative}
 #Legal{position:absolute;left:5%;top:35px;margin:0;color:#fff;font-size:12px}#Legal a{text-decoration:none;color:white}
 @media only screen and (max-width:480px){#CompanyLogo{display:none}#Legal{top:0}}
-html{height:100%}.item img{display:block;margin:0 auto}.three-col-section{text-align:center}
-.third-section-heading{font-size:22px}#third-section{margin-top:20px}#coupon-section{overflow-x:hidden;margin-top:20px;padding-bottom:40px}
+html{height:100%}.item img{display:block;margin:0 auto}.third-section-heading{font-size:22px}
+#third-section{margin-top:20px}#coupon-section{overflow-x:hidden;margin-top:20px;padding-bottom:40px}
 .add-home-bg{background:url("http://feverall.dev/wp-content/uploads/2016/10/bg-homepage.jpg") repeat-x;background-size:100% 100%;position:relative;bottom:55px}
-.add-home-bg #bs-3col-layout{position:relative;top:55px}.add-home-bg #third-section{position:relative;top:55px}
-.add-home-bg #coupon-section{position:relative;top:55px}.testmargin{margin-bottom:20px}
+.add-home-bg #bs-3col-layout{position:relative;top:20px}.add-home-bg #third-section{position:relative;top:15px}
+.add-home-bg #coupon-section{position:relative;top:40px}.box{height:180px;float:left}
+.box .box-heading{font-size:21px;float:left}.box .box-sub-heading{font-size:19px;float:left}
+#infant-box{float:left}#infant-box .box-heading{color:#3d86cb}#infant-box .box-sub-heading{color:#3d86cb}
+#infant-box .styled-link{position:absolute;bottom:0;width:95%}#infant-box .more-link{background:linear-gradient(#629fce 11%,#629fce 11%,#599ad0 12%,#3d86cb 65%,#3d86cb 100%,#4890ca 100%,#4890ca 100%,#4890ca 100%,#4890ca 100%,#4b90c7 100%);border-bottom-right-radius:4px;border-bottom-left-radius:4px}
+#infant-box .more-link a{text-decoration:none;color:white;margin-left:5px}#infant-box .children-image{position:absolute;bottom:10px;left:66%}
+#children-box{float:left}#children-box .box-heading{color:#804099}#children-box .box-sub-heading{color:#804099}
+#children-box .styled-link{position:absolute;bottom:0;width:95%}#children-box .more-link{background:linear-gradient(#a779b9 0,#a173b3 4%,#a072b3 7%,#884d9f 30%,#814399 44%,#7f3e98 52%,#7f3e98 100%);border-bottom-right-radius:4px;border-bottom-left-radius:4px}
+#children-box .more-link a{text-decoration:none;color:white;margin-left:5px}#children-box .children-image{position:absolute;bottom:10px;left:66%}
+#jr-box{float:left}#jr-box .box-heading{color:#16b1af}#jr-box .box-sub-heading{color:#16b1af}
+#jr-box .styled-link{position:absolute;bottom:0;width:95%}#jr-box .more-link{background:linear-gradient(#50c4c3 0,#45c0be 4%,#42c0bf 7%,#3cbcbb 11%,#19b2b0 26%,#09aca9 37%,#00a9a6 52%,#00a8a8 100%);border-bottom-right-radius:4px;border-bottom-left-radius:4px}
+#jr-box .more-link a{text-decoration:none;color:white;margin-left:5px}#jr-box .children-image{position:absolute;bottom:10px;left:66%}
 @media only screen and (max-width:480px){.add-home-bg{bottom:17px !important}.item{z-index:999}
 #sub-main-menu{display:none}#brand-logo-nav{display:block;margin:0 auto}.navbar-brand{width:100%}
-}.center-img{display:block;margin:0 auto}
+.center-text-mobile{text-align:center}.box{height:220px}}@media only screen and (max-width:320px){.box{height:250px}
+}.testmargin{margin-bottom:20px}.center-img{display:block;margin:0 auto}

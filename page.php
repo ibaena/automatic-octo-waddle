@@ -52,17 +52,76 @@ get_header(); ?>
         </div>
         <div class="add-home-bg">
             <div class="secondary-home-content container-fluid">
-                <div class="row " id="bs-3col-layout">
+                <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 col-sm-12">
-                        <div class="col-lg-4 three-col-section col-sm-12 testmargin">
-                            <img src="http://placehold.it/350x150" class="img-responsive">
+                        <h3 class="center-text-mobile">Available FeverAll® Products</h3>
+                    </div>
+                </div>
+                <div class="row " id="bs-3col-layout">
+                    <div class="col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                        <!--BOX 1-->
+                        <div class="col-lg-4 three-col-section col-sm-12 col-xs-12 testmargin box" id="infant-box">
+                            <div class="col-sm-8 col-xs-8">
+                                <span class="box-heading">Infants</span><br />
+                                <span class="box-sub-heading">6 months - 36 months</span>
+                            </div>
+                            <div class="col-sm-4 col-xs-4">
+                                <img src="http://feverall.dev/wp-content/uploads/2016/10/seal-purple.png" width="50" class="img-responsive">
+                            </div>
+                            <div class="col-sm-9 col-xs-9">
+                                <p>
+                                    FeverAll® Infants’ Strength is the only acetaminophen labeled for infants
+                                    as young as 6 months
+                                    of age.
+                                </p>
+                            </div>
+                            <div class="col-sm-12 col-xs-12 styled-link">
+                                <p class="more-link"><a href="/products#infants">Learn More &gt;</a></p>
+                                <img src="http://feverall.dev/wp-content/uploads/2016/10/box-infant.png" width="90" class="img-responsive children-image">
+                            </div>
                         </div>
-                        <div class="col-lg-4 three-col-section col-sm-12 testmargin">
-                            <img src="http://placehold.it/350x150" class="img-responsive">
+                        <!--End BOX 1-->
+                        <!--BOX 2-->
+                        <div class="col-lg-4 three-col-section col-sm-12 testmargin box" id="children-box">
+                            <div class="col-sm-6 col-xs-6">
+                                <span class="box-heading">Children</span><br />
+                                <span class="box-sub-heading">3 years - 6 years</span>
+                            </div>
+                            <div class="col-sm-9 col-xs-9">
+                                <p>
+                                    FeverAll® Children’s Strength is a
+                                    reliable alternative to oral forms of acetaminophen when
+                                    children are ill, nauseous
+                                    or irritable.
+                                </p>
+                            </div>
+                            <div class="col-sm-12 col-xs-12 styled-link" >
+                                <p class="more-link"><a href="/products#infants">Learn More &gt;</a></p>
+                                <img src="http://feverall.dev/wp-content/uploads/2016/10/box-children.png" width="90" class="img-responsive children-image">
+                            </div>
                         </div>
-                        <div class="col-lg-4 three-col-section col-sm-12 testmargin">
-                            <img src="http://placehold.it/350x150" class="img-responsive">
+                        <!--End BOX 2-->
+                        <!--BOX 3-->
+                        <div class="col-lg-4 three-col-section col-sm-12 testmargin box" id="jr-box">
+                            <div class="col-sm-6 col-xs-6">
+                                <span class="box-heading">Jr. Strength</span><br />
+                                <span class="box-sub-heading">6 years - 12 years</span>
+                            </div>
+                            <div class="col-sm-9 col-xs-9">
+                                <p>
+                                    FeverAll® Jr. Strength is an effective
+                                    option when your child is ill,
+                                    vomiting or simply can’t
+                                    tolerate taking
+                                    medication orally.
+                                </p>
+                            </div>
+                            <div class="col-sm-12 col-xs-12 styled-link" >
+                                <p class="more-link"><a href="/products#infants">Learn More &gt;</a></p>
+                                <img src="http://feverall.dev/wp-content/uploads/2016/10/box-junior.png" width="90" class="img-responsive children-image">
+                            </div>
                         </div>
+                        <!--End BOX 3-->
                     </div>
                 </div>
                 <div class="row" id="third-section">
