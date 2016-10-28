@@ -26,10 +26,10 @@
 
 	<header id="masthead" class="site-header container" role="banner">
 		<div class="row" id="sub-main-menu">
-			<div class="col-sm-5 col-sm-offset-6">
+			<div class="col-lg-5 col-lg-offset-6 col-sm-8 col-sm-offset-4">
 				<!-- ul inline list -->
 				<ul class="list-inline">
-					<li><a href="#">HOME</a></li>
+					<li><a href="/">HOME</a></li>
 					<li><a href="#">FAQS</a></li>
 					<li><a href="#">RESOURCES</a></li>
 					<li><a href="#">WHOLESALE INFO &nbsp; |</a></li>
@@ -40,8 +40,8 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-2 col-lg-offset-2 col-sm-12">
-				<a class="navbar-brand" href="#"><img src="http://feverall.dev/wp-content/uploads/2016/10/logo.png" alt="Feverall" id="brand-logo-nav"/></a>
+			<div class="col-lg-2 col-lg-offset-1 col-md-2 col-sm-2">
+				<a class="navbar-brand" href="/"><img src="http://feverall.dev/wp-content/uploads/2016/10/logo.png" alt="Feverall" id="brand-logo-nav" class="img-responsive"/></a>
 			</div>
 	<nav id="site-navigation" class="navbar navbar-default col-xs-12 col-sm-8" role="navigation">
 		<div class="container">
@@ -58,7 +58,7 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-					<li class=""><a href="#">PRODUCTS <span class="sr-only">(current)</span></a></li>
+					<li class=""><a href="/products">PRODUCTS <span class="sr-only">(current)</span></a></li>
 						<li><a href="#">DOSAGE AND LABELING </a></li>
 						<li><a href="#">WHY FEVERALL</a></li>
 						<li><a href="#">PROMOTIONS</a></li>

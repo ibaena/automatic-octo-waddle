@@ -257,3 +257,9 @@ html {
 .item {
     z-index: 999;
 }
+
+@media only screen and (max-width: 1440px) {
+    .box {
+        height: 250px;
+    }
+}
